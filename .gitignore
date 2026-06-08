@@ -1,0 +1,45 @@
+# Data files - do not upload patient-level data
+
+data/
+raw_data/
+processed_data/
+*.csv
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.parquet
+*.pkl
+*.joblib
+*.feather
+
+# Sensitive files
+
+.env
+*.env
+config.py
+credentials*
+secrets*
+tokens*
+password*
+api_key*
+
+# Jupyter notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Python cache
+
+**pycache**/
+*.pyc
+
+# System files
+
+.DS_Store
+
+# Output folders
+
+outputs/
+figures/
+models/
+logs/
